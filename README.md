@@ -1,5 +1,5 @@
 # project-2
-# certified Coffee Website
+# Certified Coffee Website
 
 <p> Welcome to the Certified Coffee Website repositiory!☕🌐 </p>
 
