@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Oswald', sans-serif;;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Top section */
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/bg1.jpg); 
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.first-logo{
+    background-image: url(img/logo-new.png);
+    width: 250px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+.navbar ul{
+    color: white;
+    list-style: none;
+    margin: 60px;
+  margin-top: 5px;
+  padding-bottom: 15px;
+
+}
+.navbar ul li{
+    display: inline;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+.navbar ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.filter-img{
+    display: flex
+}
+.filter-1{
+    background-image: url(img/KreaTouch-Branding-595x368.png);
+    width: 25%;
+  height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -65px;
+    bottom: 40%;
+}
+.filter-2{
+    background-image: url(img/KreaTouch-Front-595x368.png);
+    width: 25%;
+  height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -75px;
+    top: 60%;
+    
+}
+.filter-3{
+    background-image: url(img/OperaTouch-Front-PaymentOptions-595x368.png);
+    width: 40%;
+  height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 62%;
+    top: 40%;
+}
+.cup-img{
+    background-image: url(img/coffee-cup-2.png);
+    width: 45%;
+    height: 75vh;
+    background-size: cover;
+    position: absolute;
+    right: 8%;
+    bottom: 7%;
+}
+
+.bean-img{
+    background-image: url(img/beans.png);
+    width: 40%;
+    height: 55vh;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 12%;
+    left: 28%;
+}
+.service-text{
+    width: 50%;
+    translate: 35% -85% ;
+}
+.service-text span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    position: relative;
+    z-index: 3;
+} 
+.content{
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+}
+
+.content span{
+    background-color: #4d2600;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 50px;
+
+}
+.call{
+    translate: 56% -105px;
+
+}
+.call span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    
+}
+
+/* panel-1 */
+.panel-1{
+    background-color:#f9e6ffcb;
+    width: 100%;
+    height: 50rem;
+}
+.heading{
+    text-align: center;   
+}
+.heading::after{
+    content: "";
+    display: block;
+    width: 115px;
+    padding-top: 5px;
+  margin-left: 45%;
+    border-bottom: 2px solid #ca7923;
+
+}
+.heading h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.register input{
+    padding: 15px 20px;
+    margin:0px 10px;
+    outline: none;
+    border: solid 0.2px white;
+
+}
+.icon{
+    background-color: white;
+    width: 3%;
+    text-align: center;
+    height: 52px;
+    translate: -8px;
+}
+.icon i{
+    translate: 0px 10px;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    margin-top: 20px;
+    width: 18%;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #ca7923;
+  font-weight: bold;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.box-section{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 30rem;
+  width: 25%;
+  margin: 30px 10px;
+}
+.box-img{
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-heading{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+.box-content p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #260b3883;
+    font-size: 0.85rem;
+}
+.box-bottom{
+    display: flex;
+}
+.box-bottom p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #ca7923d3;
+    padding: 0px 10px;
+}
+.box-bottom i{
+    font-size: 0.75rem;
+    color: #ca7923d3;
+    translate: -4px 1px;
+}
+.box-bottom p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Panel-2 */
+
+.panel-2{
+    background-image: url(img/mike-kenneally-tNALoIZhqVM-unsplash.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    background-position: center;
+}
+.panel-2-logo{
+    background-image: url(img/home-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 12%;
+  left: 11%;
+  height: 16rem;
+}
+.panel-2-content{
+    position: relative;
+    left: 54%;
+    color: white;
+    bottom: 42%;
+
+}
+.panel-2-title h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 70px;
+    padding: 0px 0px 20px 0px;
+}
+.panel-2-title h3::after{
+    content: "";
+    width: 125px;
+    border: 1.5px solid #b88b57;
+    display: block;
+}
+.panel-2-details p{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.733);
+}
+.line-1{
+     padding:8px 0px 18px 0px;
+}
+.line-2{
+    line-height: 26px;
+}
+.panel-2-bottom span{
+    border: 1.5px solid #b88b57;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 0.85rem;
+    background-color: #b88b57;
+    padding: 20px;
+}
+.panel-2-bottom{
+    margin: 30px 0px 0px 0px ;
+}
+.panel-2-bottom:hover{
+    cursor: pointer;
+}
+
+/* panel-3 */
+.panel-3-heading h3 {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0px 20px 0px ;
+}
+.panel-3-heading h3::after{
+    content: "";
+    width: 110px;
+    border: 1.5px solid #b88b57;
+    display: block;
+    left: 46%;
+  position: relative;
+  margin: 10px 0px;
+  
+}
+
+.panel-3-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    width: 18%;
+    height: 20rem;
+    text-align: center;
+    margin: 5px 10px;
+}
+.product-img{
+    width: 50%;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  transform: translateX(60px);
+
+}
+.product-heading h4{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.product-text span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #5f5e5e;
+}
+.more-info span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    font-weight: bold;  
+}
+.more-info i{
+    font-size: 0.65rem;
+}
+.more-info:hover{
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    background-image: url(img/coffee-cup-coffee-beans-smoke-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    z-index: -1;
+
+}
+.footer::after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.footer-panel-1{
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+.nav-title h3{
+    padding-left: 15px;
+    margin-bottom: 16px;
+}
+.nav-menu{
+    width: 25%;
+    margin: 60px 0px 0px 120px;
+}
+.navlist{
+    display: flex;
+    color: #ffffffc7;
+}
+.footer h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navlist ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    list-style: none;   
+    padding: 5px 0px;
+}
+.navlist ul li::before{
+    content: "\2022";
+    color: #b88b57;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 4px;
+}
+.list-1{
+    padding: 0px 10px;
+}
+.contect{ 
+    width: 25%;
+    margin-left: 20px;
+}
+.contect-title h3{
+    margin: 55px 0px 15px 10px;
+}
+.contect-box{
+    display: flex;
+    color: #ffffffc7;
+    margin: 20px 0px;
+}
+.location-icon{
+    color: #b88b57;
+    margin: 0px 10px;
+    font-size: 1.2rem;
+}
+.contect-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    line-height: 20px;
+}
+.payment{
+    width: 40%;
+    margin-top: 40px;
+    transform: translateX(60px);
+}
+.payment-title{
+    padding: 15px 0px;
+}
+.cards{
+    background-image: url(img/footer-cards.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 55px;
+}
+.social-title{
+    padding: 15px 0px;
+}
+.social-icon{
+    display: flex;
+}
+.social-icon .icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 13%;
+    height: 55px;
+    background-position: center;
+    background-color:unset;
+    transform: translateX(2px);
+}
+
+.copy p{
+    border-top: 1px solid black;
+    position: relative;
+    z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #994d00d3;
+    padding: 30px;
+    margin-top: 36px;
+    bottom: -10px;
+    font-size: 0.85rem;
+}
+
+
+
+
+
+
