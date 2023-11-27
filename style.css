@@ -4,9 +4,6 @@
     font-family:'Oswald', sans-serif;;
     box-sizing: border-box;
 }
-body{
-    overflow-x: hidden;
-}
 
 /* Top section */
 header{
@@ -18,10 +15,11 @@ header{
 nav{
     display: flex;
     align-items: center;
+    height: 150px;
 }
 .first-logo{
     background-image: url(img/logo-new.png);
-    width: 250px;
+    width: 230px;
     height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,15 +29,12 @@ nav{
 .navbar ul{
     color: white;
     list-style: none;
-    margin: 60px;
-  margin-top: 5px;
-  padding-bottom: 15px;
 
 }
 .navbar ul li{
     display: inline;
-    padding: 7px;
-    font-size: 1rem;
+    padding: 5px;
+  font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;    
 }
@@ -48,75 +43,87 @@ nav{
     cursor: pointer;
 }
 .filter-img{
-    display: flex
+    width: 35%;
+  display: flex;
 }
+
 .filter-1{
-    background-image: url(img/KreaTouch-Branding-595x368.png);
-    width: 25%;
-  height: 220px;
+    background-image: url(img/product\ filter\ 1.png);
+    width: 12%;
+    height: 216px;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    left: -65px;
-    bottom: 40%;
+    left: 34px;
+    bottom: 3%;
+    top: 155px;
+    right: 0px;
 }
 .filter-2{
-    background-image: url(img/KreaTouch-Front-595x368.png);
-    width: 25%;
-  height: 220px;
+    background-image: url(img/product\ filter\ 2.png);
+    width: 10%;
+    height: 216px;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    left: -75px;
-    top: 60%;
-    
+    left: 40px;
+    top: 379px;
+    bottom: 0px;
+    right: 0px;
 }
 .filter-3{
-    background-image: url(img/OperaTouch-Front-PaymentOptions-595x368.png);
-    width: 40%;
-  height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 62%;
-    top: 40%;
-}
+    background-image: url(img/product\ filter\ 3.png);
+  width: 12%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  bottom: 0px;
+} 
+
 .cup-img{
     background-image: url(img/coffee-cup-2.png);
-    width: 45%;
-    height: 75vh;
-    background-size: cover;
-    position: absolute;
-    right: 8%;
-    bottom: 7%;
-}
+  width: 45%;
+  height: 480px;
+  background-size: cover;
+  position: absolute;
+  right: 108px;
+  bottom: 0px;
+  background-position: center;
+  top: 118px;
+  }
 
 .bean-img{
     background-image: url(img/beans.png);
-    width: 40%;
-    height: 55vh;
-    background-size: contain;
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 12%;
-    left: 28%;
-}
-.service-text{
-    width: 50%;
-    translate: 35% -85% ;
+  width: 34%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 426px;
+  bottom: 0px;
+  top: 100px;
 }
 .service-text span{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.8rem;
-    position: relative;
-    z-index: 3;
-} 
+    position: absolute;
+    top: 180px;
+  bottom: 0px;
+  left: 230px;
+  width: 45%;
+  z-index: 3;
+}
+ 
 .content{
     position: absolute;
-    bottom: 12%;
-    left: 25%;
+  bottom: 17px;
+  left: 335px;
+  top: 530px;
 }
 
 .content span{
@@ -128,22 +135,24 @@ nav{
 
 }
 .call{
-    translate: 56% -105px;
-
+    width: 32%;
 }
 .call span{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.2rem;
-    
+    position: absolute;
+  top: 102px;
+  bottom: 0px;
+  right: 120px;
 }
 
 /* panel-1 */
 .panel-1{
     background-color:#f9e6ffcb;
     width: 100%;
-    height: 50rem;
+
 }
 .heading{
     text-align: center;   
@@ -205,17 +214,24 @@ nav{
 .submit:hover{
     cursor: pointer;
 }
+.box-container {
+     width:  100% ;
+}
 .box-section{
+    gap: 15px; 
+    max-width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .box{
-    height: 30rem;
-  width: 25%;
-  margin: 30px 10px;
+    margin-bottom: 50px;
+    width: 31%;
+  margin-top: 15px;
 }
 .box-img{
+    width: 100%;
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,23 +275,27 @@ nav{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 500px;
     background-position: center;
 }
 .panel-2-logo{
     background-image: url(img/home-logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 12%;
-  left: 11%;
-  height: 16rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 82px;
+  left: 135px;
+  height: 250px;
+  width: 37%;
+  bottom: 0px;
 }
 .panel-2-content{
     position: relative;
-    left: 54%;
-    color: white;
-    bottom: 42%;
+  left: 54%;
+  color: white;
+  bottom: 0px;
+  width: 46%;
+  top: -230px;
 
 }
 .panel-2-title h3{
@@ -294,7 +314,7 @@ nav{
 .panel-2-details p{
     font-size: 1rem;
     font-family:Arial, Helvetica, sans-serif;
-    width: 40%;
+    width: 77%;
     color: rgba(255, 255, 255, 0.733);
 }
 .line-1{
@@ -388,7 +408,7 @@ nav{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 25rem;
+    height: 372px;
     position: relative;
     z-index: -1;
 
@@ -407,6 +427,7 @@ nav{
     display: flex;
     position: relative;
     z-index: 3;
+    height: 335px;
 }
 .nav-title h3{
     padding-left: 15px;
@@ -467,9 +488,9 @@ nav{
     line-height: 20px;
 }
 .payment{
-    width: 40%;
+    width: 35%;
     margin-top: 40px;
-    transform: translateX(60px);
+    margin-left: 60px;
 }
 .payment-title{
     padding: 15px 0px;
@@ -478,7 +499,7 @@ nav{
     background-image: url(img/footer-cards.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 62%;
     height: 55px;
 }
 .social-title{
@@ -490,26 +511,375 @@ nav{
 .social-icon .icon{
     background-size: contain;
     background-repeat: no-repeat;
-    width: 13%;
+    width: 16%;
     height: 55px;
     background-position: center;
     background-color:unset;
-    transform: translateX(2px);
+}
+.footer-panel-2{
+    background-color: #b7600b;
+    width: 100%;
+    height: 90px;
 }
 
 .copy p{
-    border-top: 1px solid black;
     position: relative;
     z-index: 3;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    text-align: center;
-    background-color: #994d00d3;
+    text-align: center; 
     padding: 30px;
     margin-top: 36px;
     bottom: -10px;
     font-size: 0.85rem;
 }
+
+.humberg{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin: 4px 3px;
+}
+
+/* Responsive */
+
+
+@media only screen and (max-width:1023px){
+
+    header{
+        height: 350px;
+    }
+    .first-logo{
+        margin-right: auto;
+        margin-left: 14px;
+        width: 50%;
+        height: 116px;
+    }
+    .navbar ul li{
+        padding: 4px;
+    font-size: 0.95rem;
+    }
+    .call span{
+        height: 24px;
+    font-size: 1rem;
+    top: 18px;
+    }
+    .service-text span {
+        height: 30px;
+    font-size: 0.95rem;
+    top: 118px;
+    left: 115px;
+    }
+    .cup-img{
+        width: 45%;
+    height: 260px;
+    right: 64px;
+    bottom: 0px;
+    top: 90px;
+    }
+    .bean-img{
+        width: 28%;
+    height: 144px;
+    right: 242px;
+    }
+    .content{
+        left: 200px;
+        top: 305px;
+    }
+    .content span{
+        padding: 10px 25px;
+        font-size: 0.95rem;
+    }
+    .filter-1{
+        width: 10%;
+        left: 26px;
+        top: 120px;
+
+    }
+    .filter-2{
+        width: 8%;
+        left: 26px;
+    top: 234px;
+
+    }
+    .filter-3{
+        width: 12%;
+        left: 98px;
+    top: 186px;
+
+    }
+
+    .panel-2{
+        height: 400px;
+    }
+    .panel-2-logo{
+        top: 100px;
+    left: 68px;
+    height: 168px;
+    }
+    .panel-2-content{
+        top: -130px;
+        left: 51%;
+    }
+    .panel-2-details p{
+        font-size: 0.85rem;
+        width: 90%;
+    }
+    .line-1{
+        padding-bottom: 6px;
+    }
+    .line-2{
+        line-height: 20px;
+    }
+    .panel-2-bottom {
+        margin-top: 10px;
+    }
+    .panel-2-bottom span{
+        font-size: 0.65rem;
+        padding: 14px;
+    }
+    .panel-3-heading h3::after{
+        left: 43%;
+    }
+    .product-img{
+        transform: translateX(36px);
+        height: 90px;
+    }
+    .nav-menu{
+        margin-left: 18px;
+    }
+    .cards{
+        width: 85%;
+    }
+    .social-icon .icon{
+        width: 24%;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .first-logo{
+        width: 40%;
+        margin: 32px 0px 0px 10px;
+    }
+    nav{
+        height: 96px;
+        background-color: #512901;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .humberg{
+        margin-top: 18px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        cursor: pointer;
+    }
+    .line{
+        width: 33px;
+        height: 4px;
+        background-color: white;
+        margin: 5px 3px;  
+    }
+    header{
+        height: 255px;
+    }
+    .cup-img{
+        height: 130px;
+    right: 24px;
+    bottom: 0px;
+    top: 123px;
+    }
+    .bean-img{
+        top: 112px;
+        width: 36%;
+        right: 110px;
+    }
+    .service-text span{
+        font-size: 0.45rem;
+        top: 125px;
+        left: 80px;
+    }
+    .filter-1{
+        width: 10%;
+        left: 14px;
+        top: 114px;
+    }
+    .filter-2{
+        width: 9%;
+        left: 16px;
+        top: 182px;;
+    }
+    .filter-3{
+        width: 14%;
+    left: 58px;
+    top: 148px;
+    }
+    .call span{
+        font-size: 0.65rem;
+        top: 102px;
+        right: 36px;
+    }
+    .content{
+        left: 88px;
+        top: 220px;
+    }
+    .content span{
+        padding: 6px 6px;
+        font-size: 0.45rem;
+    }
+    .register{
+        flex-direction: column;
+    }
+    .heading h2{
+        font-size: 2rem;
+    }
+    .heading::after{
+        margin-left: 35%;
+    }
+    .icon{
+        width: 10%;
+        translate: 142px -52px;
+    }
+    .register input{
+        min-width: 80%
+    }
+   
+    .submit{
+        margin-bottom: 20px;
+        margin-top: 0px;
+        width: 80%;
+    }
+    .box-section{
+        flex-direction: column;
+    }
+    .box{
+        width: 90%;
+    }
+    .panel-2{
+        position: relative;
+        z-index: -1;
+        height: 700px;
+    }
+    .panel-2::after{
+        content: "";
+        background-color:rgba(0, 0, 0, 0.726);
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 2;
+
+    }
+    .panel-2-logo{
+        z-index: 3;
+        width: 90%;
+        top: 75px;
+    left: 15px;
+    }
+    .panel-2-content{
+        top: 80px;
+        left: 5%;
+        z-index: 3;
+        width: 95%;
+    }
+    .panel-2-title h3{
+        font-size: 2rem;
+    }
+    .panel-2-details p{
+        font-size: 0.95rem;
+    }
+    .line-1{
+        padding-bottom: 20px;
+    }
+    .line-2{
+        padding-bottom: 20px;
+    }
+    .panel-2-bottom span{
+        font-size: 0.75rem;
+        padding: 18px;
+    }
+    .panel-3-heading h3::after{
+        left: 35%;
+    }
+    .panel-3-product{
+        flex-direction: column;
+    }
+    .product{
+        height: 250px;
+        width: 90%;
+    }
+    .product-img{
+        transform: translateX(110px);
+        height: 114px;
+    }
+    .product-heading h4{
+        font-size: 1.4em;
+    }
+
+    .footer{
+        height: 930px;
+    }
+    .footer-panel-1{
+        flex-direction: column;
+        height: 894px;
+    }
+    .nav-menu{
+        width: 50%;
+        margin-left: 2px;
+
+    }
+    .navlist{
+        display: block;
+    }
+    .list-2{
+        margin-left: 10px;
+
+    }
+    .contect{
+        width: 70%;
+        margin-left: 6px;
+    }
+    .location-icon{
+        margin-right: 15px;
+    }
+    .payment{
+        width: 80%;
+        margin-top: 10px;
+    margin-left: 18px;
+    }
+    .social-icon .icon{
+        width: 22%;
+        translate: 0px 0px;
+    }
+    .footer-panel-2{
+        height: 100px;
+    }
+
+}
+
+
+
+
+
+
 
 
 
